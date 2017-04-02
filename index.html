@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<title>VEXT Class List</title>
+
+<xmp theme="united" style="display:none;">
+
+This is a list of classes to interact with the game, some functions are self explained:
+
+**NetEvents** 
+
+- Subscribe
+- SendTo
+- SendToLocal
+- Broadcast
+- BroadcastLocal
+- NetEvents
+
+**ServerChatManager**
+
+- SendMessage
+- ServerChatManager
+- ChatManager
+
+**TicketManager**
+
+- SetTicketCount
+- GetTicketCount
+- GetCurrentRound
+- GetRoundCount
+- TicketManager
+
+**TeamSquadManager**
+
+- GetSquadPlayerCount
+- GetTeamPlayerCount
+- TeamSquadManager
+
+**VisualEnvironmentState**
+
+- entityName
+- visibility
+- priority
+- overrideVisibility
+- excluded
+- stateID
+- activeEffectPosition
+- outdoorLight
+- enlighten
+- tonemap
+- colorCorrection
+- sky
+- fog
+- wind
+- sunFlare
+- dynamicAO
+- dof
+- vignette
+- filmGrain
+- lensScope
+- cameraParams
+- screenEffect
+- damageEffect
+- planarReflection
+- dynamicEnvmap
+- characterLighting
+- motionBlur
+
+**OutdoorLightData**
+
+- sunColor
+- cloudShadowSpeed
+- skyColor
+- groundColor
+- sunRotationY
+- sunRotationX
+- skyLightAngleFactor
+- sunSpecularScale
+- skyEnvmapShadowScale
+- sunShadowHeightScale
+- cloudShadowCoverage
+- translucencyDistortion
+- cloudShadowSize
+- translucencyAmbient
+- cloudShadowExponent
+- translucencyScale
+- translucencyPower
+- enable
+- cloudShadowEnable
+- cloudShadowTexture
+
+**EnlightenData**
+
+- skyBoxSkyColor
+- skyBoxBackLightColor
+- skyBoxGroundColor
+- terrainColor
+- skyBoxSunLightColor
+- bounceScale
+- cullDistance
+- sunScale
+- skyBoxBackLightRotationY
+- skyBoxSunLightColorSize
+- skyBoxBackLightColorSize
+- skyBoxBackLightRotationX
+- skyBoxEnable
+
+**TonemapData**
+
+- bloomScale
+- minExposure
+- middleGray
+- exposureAdjustTime
+- maxExposure
+- chromostereopsisOffset
+- chromostereopsisScale
+- chromostereopsisEnable
+- tonemapMethod
+
+**ColorCorrectionData**
+
+- contrast
+- saturation
+- brightness
+- hue
+- colorGradingEnable
+- colorGradingTexture
+
+**SkyData**
+
+- cloudLayerSunColor
+- cloudLayer2Color
+- cloudLayer1Color
+- sunSize
+- brightnessScale
+- panoramicUVMaxX
+- panoramicUVMinY
+- panoramicUVMaxY
+- panoramicUVMinX
+- panoramicTileFactor
+- cloudLayer1Altitude
+- cloudLayer1TileFactor
+- cloudLayer1Rotation
+- cloudLayer1Speed
+- cloudLayer1SunLightIntensity
+- panoramicRotation
+- cloudLayer1AmbientLightIntensity
+- cloudLayer1SunLightPower
+- cloudLayer1AlphaMul
+- cloudLayer2Altitude
+- cloudLayer2TileFactor
+- cloudLayer2Rotation
+- cloudLayer2Speed
+- cloudLayer2SunLightIntensity
+- cloudLayer2SunLightPower
+- cloudLayer2AmbientLightIntensity
+- staticEnvmapScale
+- cloudLayer2AlphaMul
+- skyVisibilityExponent
+- skyEnvmap8BitTexScale
+- customEnvmapScale
+- customEnvmapAmbient
+- skyGradientTexture
+- panoramicTexture
+- panoramicAlphaTexture
+- cloudLayerMaskTexture
+- cloudLayer1Texture
+- cloudLayer2Texture
+- staticEnvmapTexture
+- customEnvmapTexture
+
+**FogData**
+
+- curve
+- fogColorCurve
+- fogColor
+- fogColorStart
+- fogDistanceMultiplier
+- endtransparencyFadeStart
+- starttransparencyFadeEnd
+- fogColorEnd
+- transparencyFadeClamp
+- heightFogVisibilityRange
+- heightFogAltitude
+- heightFogDepth
+- heightFogFollowCamera
+- fogGradientEnable
+- heightFogEnable
+- fogColorEnable
+
+**WindData**
+
+- windDirection
+- windStrength
+
+**SunFlareData**
+
+- element5AlphaScreenPosCurve
+- element5AlphaOccluderCurve
+- element5SizeScreenPosCurve
+- element2SizeOccluderCurve
+- element5SizeOccluderCurve
+- element2AlphaOccluderCurve
+- element2AlphaScreenPosCurve
+- element1Size
+- element1SizeOccluderCurve
+- element1SizeScreenPosCurve
+- element1AlphaOccluderCurve
+- element1AlphaScreenPosCurve
+- element5Size
+- element4SizeOccluderCurve
+- element3Size
+- element2Size
+- element4AlphaScreenPosCurve
+- element2SizeScreenPosCurve
+- element4SizeScreenPosCurve
+- element4Size
+- element3AlphaScreenPosCurve
+- element4AlphaOccluderCurve
+- element3SizeOccluderCurve
+- element3SizeScreenPosCurve
+- element3AlphaOccluderCurve
+- occluderSize
+- element3RayDistance
+- element4RayDistance
+- element2RayDistance
+- element1RayDistance
+- element5RayDistance
+- element5Enable
+- element3Enable
+- element2Enable
+- element1Enable
+- debugDrawOccluder
+- element4Enable
+
+**DynamicAOData**
+
+- ssaoMaxDistanceOuter
+- ssaoFadessaoRadius
+- ssaoMaxDistanceInner
+- hbaoRadius
+- hbaoAttenuation
+- hbaoAngleBias
+- hbaoPowerExponent
+- hbaoContrast
+- hbaoMaxFootprintRadius
+
+**DofData**
+
+- nearDistanceScale
+- focusDistance
+- blurFilterDeviation
+- farDistanceScale
+- blurAdd
+- scale
+- diffusionDofFocalLength
+- diffusionDofAperture
+- diffusionDofEnable
+- blurFilter
+
+**VignetteData**
+
+- color
+- exponent
+- opacity
+
+**FilmGrainData**
+
+- colorScale
+- textureScale
+- linearFilteringEnable
+- randomEnable
+
+**LensScopeData**
+
+- chromaticAberrationColor1
+- radialBlendDistanceCoefficients
+- chromaticAberrationColor2
+- blurCenter
+- chromaticAberrationDisplacement2
+- chromaticAberrationDisplacement1
+- chromaticAberrationStrengths
+- blurScale
+
+**CameraParamsData**
+
+- nearPlane
+- viewDistance
+- sunShadowmapViewDistance
+
+**ScreenEffectData**
+
+- screenEffectParams
+- frameWidth
+- outerFrameOpacity
+- innerFrameOpacity
+- angleframeType
+- shader
+
+**DamageEffectData**
+
+- rightDamage
+- topDamage
+- leftDamage
+- bottomDamage
+- startCriticalEffectHealthThreshold
+- endCriticalEffectHealthThreshold
+- minDamagePercentageThreshold
+- fallofTime
+- maxOpacityDamagePercentage
+- debugDamage
+
+**PlanarReflectionData**
+
+- horizontalDeviation
+- groundHeight
+- verticalDeviation
+- skyRenderEnable
+- verticalBlurFilter
+- horizontalBlurFilter
+
+**DynamicEnvmapData**
+
+- keyColorEnvmap
+- groundColorEnvmap
+- skyColorEnvmap
+
+**CharacterLightingData**
+
+- topLight
+- cameraUpRotation
+- topLightDirY
+- blendFactor
+- topLightDirX
+- lockToCameraDirection
+- firstPersonEnable
+- characterLightEnable
+- characterLightingMode
+
+**MotionBlurData**
+
+- cutoffGradientScale
+- motionBlurCutoffRadius
+- motionBlurEnable
+
+----------
+some examples can be found here:
+
+- [VEXT-BFJumper](https://github.com/kiwidoggie/VEXT-BFJumper)
+- [VEXT-Zombies](https://github.com/kiwidoggie/VEXT-Zombies)
+- [VEXT-TTT](https://github.com/kiwidoggie/VEXT-TTT)
+- [kAdmin](https://github.com/kiwidoggie/kAdmin)
+
+thanks to [kiwidog](https://github.com/kiwidoggie) for the examples.
+
+by [Frankity](https://twitter.com/frankiity)
+
+</xmp>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
